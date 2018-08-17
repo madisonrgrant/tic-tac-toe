@@ -1,17 +1,32 @@
 main{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.row {
+/* .row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
 
-}
+} */
 
 .square {
   width: 200px;
   height: 200px;
-  border: 1px solid black;
+  border: 5px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FACF8C;
+  font-family: sans-serif;
+  font-size: 80px;
+  color: white;
+  &:hover;
+
 }
+ .square:hover {
+   background-color: #FAB98C;
+ }

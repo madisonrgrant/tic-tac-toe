@@ -55,7 +55,7 @@ winCheck() {
 	 for (let i=0; i < win.length; i++) {
 		 var winSet = win[i]
 		 	if (gameArr[winSet[0]] === gameArr[winSet[1]] && gameArr[winSet[1]] === gameArr[winSet[2]]) {
-				alert ("win")
+				alert ("Winner!")
 				return this.reset()
 			}
 
